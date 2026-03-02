@@ -1,10 +1,5 @@
 import { Router } from "express";
-import {
-    savePasswordController,
-    getAllPasswordController,
-    updatePasswordController,
-    deletePasswordController
-} from "../controllers/passwordController.js";
+import { savePasswordController, getAllPasswordController, updatePasswordController, deletePasswordController} from "../controllers/passwordController.js";
 
 
 const route = Router()
